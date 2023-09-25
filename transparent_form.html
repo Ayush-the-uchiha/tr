@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good morning</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: serif;
+        }
+        h1{
+            color: white;
+        }
+        body{
+            
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment:scroll;
+        }
+        .container{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+            background-color: transparent;
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 30px;
+        }
+        h1{
+            padding-bottom: 10px;
+            padding-top: 20px;
+        }
+        .input{
+            height: 40px;
+            display: transparent;
+            padding: 25px;
+            width: 300px;
+        }
+        input{
+            align-items: center;
+            width: 230px;
+            margin-left: 30px;
+            margin-right: 20px;
+            height:20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-bottom: 20px;
+            border: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+            background-color: transparent;
+            outline:none;
+            color: white;
+        }
+        #sub{
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border: none;
+            margin-left: 55px;
+            width: 230px;
+            border-radius: 5px;
+        }
+        #sub:hover{
+            background-color: rgba(0, 0, 0, 0.3);
+
+        }
+        #author{
+            text-align: center;
+            margin: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body background="C:\Users\user\Pictures\Saved Pictures\safari.jpg">
+    <div class="container">
+        <form action="">
+            <h1 align="center">Sign up</h1>
+            <div class="input">
+                <i class="fa-solid fa-user"></i>
+                <input type="name" id="name" placeholder="Name" required spellcheck="false">
+            </div>
+            <div class="input">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="Email" placeholder="Email" required>
+            </div>
+            <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="confirm" placeholder="Confirm Password" required>
+            </div>
+            <button type="submit" id="sub">Create Account</button>
+
+            <div class="icon">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-google"></i>
+                <i class="fab fa-facebook"></i>
+            </div>
+
+            <div id="author">
+                <small>Glossmorphism sing up | desgined by Ayush</small>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
